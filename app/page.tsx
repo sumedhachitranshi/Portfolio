@@ -500,7 +500,7 @@ Business with Effective Insights</h3>
               action={async (formData) => {
                 const res = await saveMessage(formData);
                 if (res.success) {
-                  alert("Thank you Sumedha! Message received.");
+                  alert("Thank you! Message received.");
                 } else {
                   alert("Something went wrong. Please try again.");
                 }
